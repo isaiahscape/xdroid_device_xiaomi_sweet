@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common xdroid-CAF configurations
+# Inherit common xdroidCAF configurations
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT_DARK := true
 XDROID_UI_BLUR := true
@@ -23,6 +23,9 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys"
+    PRIVATE_BUILD_DESC="sweet_eea-user 13 TKQ1.221013.002 V14.0.7.0.TKFEUXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys
+BUILD_FINGERPRINT := Redmi/sweet_eea/sweet:13/TKQ1.221013.002/V14.0.7.0.TKFEUXM:user/release-keys
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
