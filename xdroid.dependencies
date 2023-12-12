@@ -5,6 +5,6 @@
   },
   {
     "repository": "android_kernel_xiaomi_sweet",
-    "target_path": "kernel/xiaomi/sweet"
+    "target_path": "kernel/xiaomi/sm6150"
   }
 ]
