@@ -1,5 +1,5 @@
 echo 'Starting to clone stuffs needed for your device'
-echo 'Note: I removed the default vendor here, use @itsshashanksp perf kernel'
+echo 'Note: I removed the default kernel here, use @itsshashanksp perf kernel'
 echo 'Cloning Vendor tree [1/1]'
 # Vendor tree
 git clone https://github.com/isaiahscape/xdroid_vendor_xiaomi_sweet -b xdroid-caf vendor/xiaomi/sweet
